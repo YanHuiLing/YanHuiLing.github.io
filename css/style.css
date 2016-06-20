@@ -41,7 +41,7 @@ body a:hover{
 /*-- header --*/
 .navbar-default {
   background:none !important;
-  border-color:none !important;
+
 }
 a.navbar-brand {
   font-size: 3em;
@@ -240,12 +240,12 @@ a.navbar-brand:hover {
 }
 /*-- //banner --*/
 /*------------------ Slider Part starts Here----------*/
-#slider3,
-#slider2,#slider4 {
+#slider3 li{width: 174px;  height: 151px;  background-color: #C34C21;  color: #FFFFFF;  margin-top: 19%;  margin-left: 7%;  border-radius: 0; }
+#slider3, #slider2,#slider4 {
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
-  margin: 0 auto;
+
 }
 .rslides_tabs {
   list-style: none;
@@ -355,7 +355,7 @@ a.navbar-brand:hover {
 }
 #slider3-pager span,#slider2-pager span,#slider4-pager span{
 	width:100px;
-	height:15px;
+	height:25px;
 	background:#fff;
 	display:inline-block;
 	border-radius:30em;
@@ -529,12 +529,12 @@ position:relative;
 .nbs-flexisel-nav-left {
 left: -4%;
 top: 15% !important;
-background: url(../images/3.png) no-repeat 0px 0px;
+background: url(../images/3.jpg) no-repeat 0px 0px;
 }
 .nbs-flexisel-nav-right {
 right: -4%;
 top: 15% !important;
-background: url(../images/3.png) no-repeat -66px 0px;
+background: url(../images/3.jpg) no-repeat -66px 0px;
 }
 /*--//flexisel--*/
 /*-- banner-bottom --*/
